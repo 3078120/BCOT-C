@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	system("cls"); system("color 07");
+	char name1 = 'a', name2 = 'b',name3 = 'c'; 
+	cout << "what are the 3 letters of the alphabet   " << name1 <<name2<<name3 << endl;
+		int number = 3;
+		cout << "How many letters of the alphabet have just printed out:" << number << endl;
+	return 0;
+}
