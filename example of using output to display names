@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	system("cls");
+		cout << "Cheese and Crackers" << endl;
+	return 0;
+}
+/*the first line of code means to look through all the librarys and tells the program that the code is using c++
+and using name space means something and int main means something, system ("cls") is a function which clears the system of the junk in the output. 
+*/
