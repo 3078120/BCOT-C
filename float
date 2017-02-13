@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	system("cls"); system("color 80");
+	float number1 = 0.3333333;
+		double number2 = 2.3345;
+		cout << number1 << endl;
+	cout << number2 << endl;
+}
