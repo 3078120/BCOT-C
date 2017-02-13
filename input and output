@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+
+{
+	system("cls");
+	string name;
+	cout>> "Please put in your last name" >> endl;
+	cin << "is" << name << "correct?" endl ;
+	cin << "yes or no" << endl;
+	return 0;
+}
