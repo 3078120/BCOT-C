@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	system("cls"), system("color 80");
+	string name, name2, name3, name4, name5, name6, name7, name8;
+	cout<< "please input your first name" << endl;
+	cin>> name ;
+	cout<< " please enter your surname" << endl;
+	cin>> name2;
+	cout<< " what is your age" << endl;
+	cin >> name;
+	cout<< " what is your house number" << endl;
+	cin>> name4;
+	cout<< "what is your first line of address" << endl;
+	cin >> name5;
+	cout<< "what city do you live in" << endl;
+	cin>> name6;
+	cout<< "what state do you live in" << endl;
+	cin>> name7;
+	cout<< " what is your postcode" << endl;
+	getline(cin, name8);
+	return 0;
+}
