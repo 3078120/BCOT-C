@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	system("cls"); system("color 85");
+	char letter = 'a';
+	cout << "my letter is:" << letter << endl;
+	return 0;
+}
