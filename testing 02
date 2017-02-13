@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	system("cls");
+	system("color 05");
+	int num;
+	num = 120;
+	cout << "my number is; " << num;
+	return 0;
+}
