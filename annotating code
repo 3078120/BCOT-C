@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	// This is a comment 
+	// You can write however many comments you want
+	system("cls");
+	cout << "Domino's pizza yummy" << endl;
+	return 0;
+}
