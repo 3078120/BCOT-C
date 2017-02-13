@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	system("cls"); // used to clean up the junk at the top if i didnt put this code in
+	float bed, kitchen, dinning, living_room,total; /* uses float as it'll allow for a number with a couple of decimals after the point in the number,
+
+the line 6 is declaring the bed and kitchen and dinning and living_room as a float variable which will allow for decimal points after the number.*/
+	cout << "please put in the value of the bedroom? \n"; /* is asking the user to input a number.
+														  line 11 is just stating the user that it is bedroom 1 value*/
+	cout << "Bedroom value 1: "; cin >> bed; // this not only states the bedroom value is to be inputted but is also allowing the user to input a number.
+	cout << "please put in the value of the kitchen? \n"; // asking the user to enter the value of the kitchen
+	cout << "Kitchen value 1: "; cin >> kitchen;
+	cout << "please put in the value of the dinning room? \n";
+	cout << "dinning room value: 1: "; cin >> dinning;
+	cout << "please put in the value of the living room? \n";
+	cout << "living room value 1: "; cin >> living_room;
+	total= bed + kitchen + dinning + living_room;
+	cout << total;
+	return 0;
+
+}
